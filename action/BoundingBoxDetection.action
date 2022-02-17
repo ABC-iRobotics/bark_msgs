@@ -1,0 +1,6 @@
+# Define the goal
+sensor_msgs/Image image
+---
+# Define the result
+vision_msgs/Detection2DArray detections
+---
