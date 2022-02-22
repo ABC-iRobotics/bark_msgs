@@ -1,0 +1,16 @@
+# Define the goal
+Header header
+geometry_msgs/Point[] points
+bool space_type
+
+bool PHYSICAL_3D=True
+bool IMAGE_2D=False
+---
+# Define the result
+Header header
+geometry_msgs/Point[] points
+bool space_type
+
+bool PHYSICAL_3D=True
+bool IMAGE_2D=False
+---
