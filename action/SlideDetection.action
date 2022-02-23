@@ -1,0 +1,9 @@
+# Define goal
+sensor_msgs/Image image_on
+sensor_msgs/Image image_off
+vision_msgs/Detection2D bbox
+---
+
+# Define result
+geometry_msgs/Pose2D[] poses
+---

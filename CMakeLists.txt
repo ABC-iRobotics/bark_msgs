@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   genmsg
   actionlib_msgs
   vision_msgs
+  geometry_msgs
 )
 
 ## Uncomment this if the package has a setup.py. This macro ensures
@@ -67,6 +68,9 @@ add_action_files(
   BoundingBoxDetection.action
   RaspberryPiCamera.action
   CameraProjections.action
+  LaserModul.action
+  OrientCorrection.action
+  SlideDetection.action
 )
 
 # Generate added messages and services with any dependencies listed here
@@ -76,6 +80,7 @@ generate_messages(
   actionlib_msgs
   sensor_msgs
   vision_msgs
+  geometry_msgs
 )
 
 ################################################
