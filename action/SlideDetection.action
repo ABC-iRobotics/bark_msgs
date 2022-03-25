@@ -1,9 +1,9 @@
-# Define goal
+# Images with laser being turned on and off and ROI
 sensor_msgs/Image image_on
 sensor_msgs/Image image_off
 vision_msgs/Detection2D bbox
 ---
 
-# Define result
+# Detected poses for the glass slides
 geometry_msgs/Pose2D[] poses
 ---

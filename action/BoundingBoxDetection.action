@@ -1,6 +1,6 @@
-# Define the goal
+# Image to detect bounding boxes on
 sensor_msgs/Image image
 ---
-# Define the result
+# Detection results
 vision_msgs/Detection2DArray detections
 ---

@@ -1,5 +1,5 @@
-# Define the goal
+# Empty goal
 ---
-# Define the result
+# Result image
 sensor_msgs/Image image
 ---

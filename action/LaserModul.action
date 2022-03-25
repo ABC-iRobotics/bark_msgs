@@ -1,5 +1,7 @@
-# Define goal
+# Tilt angle for the laser
 float32 angle
+
+# Turn the laser on?
 bool on
 ---
 

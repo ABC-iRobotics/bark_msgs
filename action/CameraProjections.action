@@ -1,4 +1,8 @@
-# Define the goal
+# If space_type is set for PHYSICAL_3D, points need to be relative to header.frame_id
+# If space_type is set for IMAGE_2D, header.frame_id id the frame relative to which the 3D points in the result will be given
+
+# If space_type is set for IMAGE_2D, the z values of points are the distances of the pints from the camera center (in camera z),
+# and the x and y values are in pixel units (0,0 is the top left corner)
 Header header
 geometry_msgs/Point[] points
 bool space_type
@@ -6,7 +10,6 @@ bool space_type
 bool PHYSICAL_3D=True
 bool IMAGE_2D=False
 ---
-# Define the result
 Header header
 geometry_msgs/Point[] points
 bool space_type

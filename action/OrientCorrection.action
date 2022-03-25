@@ -1,7 +1,7 @@
-# Define goal
+# Image to calculate orientation on
 sensor_msgs/Image image
 ---
 
-# Define result
+# Correction ange in degrees! around the CAMERA! z axis so that the CAMERA! aligns with the box
 float32 angle
 ---
